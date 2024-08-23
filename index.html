@@ -48,10 +48,10 @@
       <span>&copy; Realm Services 2024 - <a href="./ab"> About:Blank Launcher</a></span>
     </footer>
       <script src=
-          "particles.js-master/particles.js">
+          "./particles.js-master/particles.js">
       </script>
       <script src=
-          "/particles.js-master/demo/js/app.js">
+          "./particles.js-master/demo/js/app.js">
       </script>
     <script src="./js/index.js"></script>
     <script src="./js/home.js"></script>
@@ -61,7 +61,7 @@
       // PWA
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register(
-          '/service-worker.js', {
+          './service-worker.js', {
             scope: '/'
           }
         )

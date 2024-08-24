@@ -3,18 +3,8 @@
 <img style="border-radius:20px" height="150px" src="images/logo2.avif">
 </kbd>
 </p>
-<h1 align="left">3kh0 X, codename Hagia </h1>
-<p align="left">The ultimate unblocked games website on the planet.</p>
-
-<iframe
-    title="Discord user embed"
-    width="340"
-    height=120
-    frameborder="0"
-    sandbox="allow-scripts"
-    src="https://widgets.vendicated.dev/user?id=343383572805058560&theme=dark&banner=true&full-banner=false&rounded-corners=true&discord-icon=true&badges=true&guess-nitro=true&background-color=%23000000&foreground-color=%23fff"
-></iframe>
-
+<h1 align="left">bryce's games - v2 (newest release)</h1>
+<p align="left">the best school site for games, resources, unblocked searching, chatting, and more.</p>
 
 ## 
 [![Stargazers repo roster for @kaio-lord/website-x](https://reporoster.com/stars/dark/kaio-lord/website-x)](https://github.com/kaio-lord/website-x/stargazers)

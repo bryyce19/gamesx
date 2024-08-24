@@ -109,12 +109,13 @@ body {
 
 .navbar {
   height: 70px;
-  box-shadow: var(--shadow);
-  background: var(--background);
+  /* box-shadow: var(--shadow); */
+  background: transparent;
   position: sticky;
   top: 0;
   z-index: 9999;
   width: 100%;
+  border-radius: 50px;
 }
 
 .navleft {
@@ -154,7 +155,7 @@ body {
   height: 100%;
   align-items: center;
   gap: 10px;
-  background: var(--background);
+  background: transparent;
   margin-right: 20px;
 }
 
@@ -284,10 +285,11 @@ body {
 }
 
 .message {
+  margin-top: 10px;
   text-align: center;
   color: var(--text);
-  font-size: 1.5rem;
-  margin: 1rem;
+  font-size: 1rem;
+  margin: 0.4rem;
   z-index: 6666;
 }
 
@@ -310,7 +312,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--theme);
+  background: var(--theme); /* Button color */
   font-size: 1rem;
   border-radius: 50px;
   cursor: pointer;
@@ -318,21 +320,65 @@ body {
   user-select: none;
   border: none;
   color: var(--text-secondary);
-  transition: transform 500ms;
-  transition: background 250ms;
+  transition: transform 500ms, background 250ms, box-shadow 500ms;
   z-index: 6666;
+  /* Default wobble animation (slow) */
+  animation: wobble-slow 3s infinite ease-in-out;
+  /* Default glow effect */
+  box-shadow: 0 0 15px var(--theme);
 }
 
 .play:hover {
   transform: scale(1.1);
-  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.616);
-  transition: transform 450ms ease-in-out;
+  /* Faster wobble on hover */
+  animation: wobble-fast 1s infinite ease-in-out;
+  /* Increased glow effect on hover */
+  box-shadow: 0 0 30px var(--theme);
+  transition: transform 450ms ease-in-out, box-shadow 300ms ease-in-out;
   z-index: 6666;
+}
+
+/* Slow wobble animation */
+@keyframes wobble-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+  75% {
+    transform: rotate(-2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Faster wobble animation */
+@keyframes wobble-fast {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-5deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 a {
   text-decoration: none;
-  color: #0084ff;
+  color: var(--theme);
   z-index: 6666;
 }
 
@@ -474,9 +520,10 @@ footer {
 
 .section-text {
   color: var(--text);
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin: 0 1rem;
   z-index: 6666;
+  margin-top: 4px;
 }
 
 .section-text p {

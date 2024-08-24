@@ -6,7 +6,14 @@
 <h1 align="left">3kh0 X, codename Hagia </h1>
 <p align="left">The ultimate unblocked games website on the planet.</p>
 
-[![Join us on Discord](https://invidget.switchblade.xyz/wv6huJAwEv?theme=dark)](https://discord.com/invite/echodev-971769908205604864)
+<iframe
+    title="Discord user embed"
+    width="340"
+    height=120
+    frameborder="0"
+    sandbox="allow-scripts"
+    src="https://widgets.vendicated.dev/user?id=343383572805058560&theme=dark&banner=true&full-banner=false&rounded-corners=true&discord-icon=true&badges=true&guess-nitro=true&background-color=%23000000&foreground-color=%23fff"
+></iframe>
 
 
 ## 

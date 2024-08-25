@@ -1,6 +1,6 @@
 <p align="left">
 <kbd>
-<img style="border-radius:20px" height="150px" src="images/logo2.avif">
+<img style="border-radius:20px" height="150px" src="images/logo.png">
 </kbd>
 </p>
 <h1 align="left">bryce's games - v2 (newest release)</h1>
@@ -11,22 +11,21 @@
 [![Forkers repo roster for @kaio-lord/website-x](https://reporoster.com/forks/dark/kaio-lord/website-x)](https://github.com/kaio-lord/website-x/network/members)
 
 
-## Main Features
+## features
 
-- Cloaking + A:B
-- Proxy
-- Static deployment
+- tab cloaking & about:blank
+- free proxy
 - SPEED
-- Lightweight
-- PWA support
-- And more!
+- lightweight
+- pwa support
+- and even more
 
 
-## Game Files
+## files
 
-kaio-lord's official game files and the CDN base are in [this repo](https://gitlab.com/kaioxdev/legacy-assets).
+official game files and the cdn base are hosted at [this repo](https://gitlab.com/kaioxdev/legacy-assets).
 
-## Host the CDN
+<!-- ## Host the CDN
 
 Thanks to [@Russell2259](https://github.com/Russell2259/) in the previous version,  you can host your CDN. Instructions are [here](https://3kh0.gitbook.io/wiki/create-a-cdn-server-for-3kh0).
 
@@ -44,14 +43,14 @@ You can host our website on a cloud hosting solution like Vercel here. If you're
 
 ## Themes 
 
-To create your own theme, check out the themes.css file on the repo. In there you will find existing themes that you can modify. More documentation can be found [here](http://3kh0.gitbook.io/wiki/create-theme-code).
+To create your own theme, check out the themes.css file on the repo. In there you will find existing themes that you can modify. More documentation can be found [here](http://3kh0.gitbook.io/wiki/create-theme-code). -->
 
 
 ## Contributors
 
-[![Contrib](https://contrib.rocks/image?repo=kaio-lord/website-x)](https://github.com/kaio-lord/website-x/graphs/contributors)
+[![Contrib](https://contrib.rocks/image?repo=bryyce19/gamesx)](https://github.com/bryyce19/gamesx)
 
-
+<!--
 ## Previous versions
 
 Here are the previous iterations of this project. All credits to 3kh0 and all of the amazing people that helped work on the iterations of this project.
@@ -62,6 +61,6 @@ Here are the previous iterations of this project. All credits to 3kh0 and all of
 - [v4](https://gitlab.com/3kh0/website-v4)
 
 ## License
-View the license [here](LICENSE.txt).
+View the license [here](LICENSE.txt). --:
 
 
